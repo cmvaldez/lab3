@@ -65,3 +65,6 @@ $app->setContext($context);
  */
 
 $app->run();
+
+?>
+
