@@ -280,19 +280,19 @@ alert("Whoa, you're heading into new territory!");
           }
 
           // sql to create table
-          $sql = "CREATE TABLE cmvaldez_MyGuests (
-            name VARCHAR(30) NOT NULL,
-            email VARCHAR(50) NOT NULL,
-            website VARCHAR(30),
-            comment TEXT(500),
-            gender VARCHAR(10) NOT NULL
-            )";
+          //$sql = "CREATE TABLE cmvaldez_MyGuests (
+          //  name VARCHAR(30) NOT NULL,
+          //  email VARCHAR(50) NOT NULL,
+          //  website VARCHAR(30),
+          //  comment TEXT(500),
+          //  gender VARCHAR(10) NOT NULL
+          //  )";
             
-          if ($conn->query($sql) === TRUE) {
-            echo "Table cmvaldez_MyGuests created successfully";
-          } else {
-            echo "Error creating table: " . $conn->error;
-          }
+          //if ($conn->query($sql) === TRUE) {
+          //  echo "Table cmvaldez_MyGuests created successfully";
+          //} else {
+          //  echo "Error creating table: " . $conn->error;
+          //}
           
           $sql = "INSERT INTO cmvaldez_MyGuests (name, email, website, comment, gender)
           VALUES ('$name', '$email', '$website', '$comment', '$gender')";
