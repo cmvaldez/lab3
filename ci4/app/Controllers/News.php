@@ -1,5 +1,7 @@
 <?php
 
+# need to comment something so github sees this as an update. i really just need to edit my .env file
+
 namespace App\Controllers;
 
 use App\Models\NewsModel;
