@@ -6,6 +6,7 @@ use CodeIgniter\Model;
 
 class NewsModel extends Model {
     protected $table = 'cmvaldez_news';
+    protected $allowedFields = ['title', 'slug', 'body'];
     public function getNews($slug = false) {
         if ($slug === false) {
             return $this->findAll();
