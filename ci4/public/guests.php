@@ -59,7 +59,7 @@ body {
           $username = "webprogmi211";
           $password = "j@zzyAngle30";
           $dbname = "webprogmi211";
-          
+          //
           // Create connection
           $conn = new mysqli($servername, $username, $password, $dbname);
           // Check connection
