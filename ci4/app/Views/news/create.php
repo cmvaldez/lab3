@@ -3,7 +3,7 @@
 <?= session()->getFlashdata('error') ?>
 <?= validation_list_errors() ?>
 
-<form action="/news/create" method="post">
+<form action="/~cmvaldez/lab3/ci4/news/create" method="post">
     <?= csrf_field() ?>
 
     <label for="title">Title</label>
