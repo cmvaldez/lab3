@@ -1,4 +1,5 @@
 <h2><?= esc($title) ?></h2>
+<h3><a href="/~cmvaldez/lab3/ci4/public/indexAPC.php">Go back home.</a></h3>
 
 <?php if (! empty($news) && is_array($news)): ?>
 

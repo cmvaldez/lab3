@@ -1,4 +1,5 @@
 <h2><?= esc($title) ?></h2>
+<h3><a href="/~cmvaldez/lab3/ci4/public/indexAPC.php">Go back home.</a></h3>
 
 <?php if (! empty($guest) && is_array($guest)): ?>
     <?php foreach ($guest as $guest_item): ?>
