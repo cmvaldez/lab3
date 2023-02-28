@@ -48,8 +48,10 @@ class Guest extends BaseController {
         $model->save([
             'name' => $post['name'],
             'email' => $post['email'],
+            'website' => $post['website'],
             // 'slug'  => url_title($post['title'], '-', true),
             'comment'  => $post['comment'],
+            'gender' => $post['gender'],
         ]);
 
         return view('templates/header', ['title' => 'Enter guest credentials'])
