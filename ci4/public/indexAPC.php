@@ -126,9 +126,7 @@ alert("Whoa, you're heading into new territory!");
   <a href="resources1.html">Resources</a>
   <a href="guestsAPC.php">Show Form Entries</a>
   <a href="/~cmvaldez/lab3/ci4/public/guest/create">Enter Guest Creds</a>
-  <a href="/~cmvaldez/lab3/ci4/public/guest">Show Guest Creds</a>
   <a href="/~cmvaldez/lab3/ci4/public/news/create">Create News</a>
-  <a href="/~cmvaldez/lab3/ci4/public/news">Show News</a>
   <a href="#" style="float:right">Link</a>
 </div>
 

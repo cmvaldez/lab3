@@ -1,1 +1,1 @@
-<p>News item created successfully.</p>
+<p>News item created successfully. See <a href="/~cmvaldez/lab3/ci4/public/news">here</a></p>
