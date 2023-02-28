@@ -11,7 +11,7 @@
     <br>
 
     <label for="email">Email</label>
-    <input type="input" name="name" value="<?= set_value('email') ?>">
+    <input type="input" name="email" value="<?= set_value('email') ?>">
     <br>
 
     <label for="comment">Comment</label>
@@ -19,11 +19,11 @@
     <br>
 
     <label for="website">Website</label>
-    <input type="input" name="name" value="<?= set_value('website') ?>">
+    <input type="input" name="website" value="<?= set_value('website') ?>">
     <br>
 
     <label for="gender">Gender</label>
-    <input type="input" name="name" value="<?= set_value('gender') ?>">
+    <input type="input" name="gender" value="<?= set_value('gender') ?>">
     <br>
 
     <input type="submit" name="submit" value="Enter guest information">
