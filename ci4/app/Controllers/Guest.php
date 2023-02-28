@@ -35,7 +35,7 @@ class Guest extends BaseController {
             'email'  => 'required|max_length[255]|min_length[3]',
             'website'  => 'required|max_length[255]|min_length[3]',
             'comment' => 'required|max_length[5000]|min_length[10]',
-            'email'  => 'required|max_length[255]|min_length[3]'
+            'gender'  => 'required|max_length[255]|min_length[3]'
         ])) {
             // The validation fails, so returns the form.
             return view('templates/header', ['title' => 'Enter guest credentials'])
