@@ -3,7 +3,7 @@
 <?= session()->getFlashdata('error') ?>
 <?= validation_list_errors() ?>
 
-<form action="/guest/create" method="post">
+<form action="create" method="post">
     <?= csrf_field() ?>
 
     <label for="name">Name</label>
